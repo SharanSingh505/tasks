@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Col, Row } from "react-bootstrap";
+//import { Button, Container, Col, Row } from "react-bootstrap";
 //import Container from "react-bootstrap/esm/Container";
 import "./App.css";
 import { ChangeType } from "./components/ChangeType";
