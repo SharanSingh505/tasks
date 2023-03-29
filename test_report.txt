@@ -10,46 +10,663 @@ PASS src/arrays.test.ts
 PASS src/objects.test.ts
 PASS src/components/StartAttempt.test.tsx
 PASS src/components/TwoDice.test.tsx
+PASS src/form-components/MultipleChoiceQuestion.test.tsx
 PASS src/bad-components/ChooseTeam.test.tsx
 PASS src/bad-components/DoubleHalf.test.tsx
 PASS src/functions.test.ts
+PASS src/form-components/CheckAnswer.test.tsx
+PASS src/form-components/EditMode.test.tsx
 PASS src/components/ChangeType.test.tsx
 PASS src/components/CycleHoliday.test.tsx
+PASS src/form-components/GiveAttempts.test.tsx
+PASS src/form-components/ChangeColor.test.tsx
+  ● Console
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16997:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
 PASS src/components/Counter.test.tsx
 PASS src/components/RevealAnswer.test.tsx
 PASS src/bad-components/ColoredBox.test.tsx
 PASS src/bad-components/ShoveBox.test.tsx
 PASS src/App.test.tsx
-----------------------|---------|----------|---------|---------|-------------------
-File                  | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
-----------------------|---------|----------|---------|---------|-------------------
-All files             |   99.55 |    94.87 |     100 |   99.54 |                   
- src                  |     100 |    95.31 |     100 |     100 |                   
-  App.tsx             |     100 |      100 |     100 |     100 |                   
-  arrays.ts           |     100 |      100 |     100 |     100 |                   
-  functions.ts        |     100 |      100 |     100 |     100 |                   
-  nested.ts           |     100 |     92.3 |     100 |     100 | 259               
-  objects.ts          |     100 |     87.5 |     100 |     100 | 99,124            
- src/bad-components   |   95.83 |       50 |     100 |   95.45 |                   
-  ChooseTeam.tsx      |     100 |       50 |     100 |     100 | 18                
-  ColoredBox.tsx      |     100 |      100 |     100 |     100 |                   
-  DoubleHalf.tsx      |     100 |      100 |     100 |     100 |                   
-  DoubleHalfState.tsx |       0 |      100 |     100 |       0 | 3                 
-  ShoveBox.tsx        |     100 |      100 |     100 |     100 |                   
- src/components       |     100 |      100 |     100 |     100 |                   
-  ChangeType.tsx      |     100 |      100 |     100 |     100 |                   
-  Counter.tsx         |     100 |      100 |     100 |     100 |                   
-  CycleHoliday.tsx    |     100 |      100 |     100 |     100 |                   
-  RevealAnswer.tsx    |     100 |      100 |     100 |     100 |                   
-  StartAttempt.tsx    |     100 |      100 |     100 |     100 |                   
-  TwoDice.tsx         |     100 |      100 |     100 |     100 |                   
- src/interfaces       |       0 |        0 |       0 |       0 |                   
-  answer.ts           |       0 |        0 |       0 |       0 |                   
-  question.ts         |       0 |        0 |       0 |       0 |                   
-----------------------|---------|----------|---------|---------|-------------------
+  ● Console
 
-Test Suites: 15 passed, 15 total
-Tests:       110 passed, 110 total
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+          at div
+          at App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+          at div
+          at App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+          at div
+          at App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+          at div
+          at App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+          at div
+          at App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+          at div
+          at App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+    console.error
+      Warning: Encountered two children with the same key, `color picker`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version.
+          at div
+          at ChangeColor (/home/runner/work/tasks/tasks/src/form-components/ChangeColor.tsx:4:31)
+          at div
+          at App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at warnOnInvalidKey (node_modules/react-dom/cjs/react-dom.development.js:13620:11)
+      at reconcileChildrenArray (node_modules/react-dom/cjs/react-dom.development.js:13651:21)
+      at reconcileChildFibers (node_modules/react-dom/cjs/react-dom.development.js:14125:14)
+      at reconcileChildren (node_modules/react-dom/cjs/react-dom.development.js:16990:28)
+      at updateFragment (node_modules/react-dom/cjs/react-dom.development.js:17294:3)
+      at beginWork (node_modules/react-dom/cjs/react-dom.development.js:19102:14)
+
+-----------------------------|---------|----------|---------|---------|-------------------
+File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------------|---------|----------|---------|---------|-------------------
+All files                    |    99.6 |    95.55 |     100 |    99.6 |                   
+ src                         |     100 |    95.31 |     100 |     100 |                   
+  App.tsx                    |     100 |      100 |     100 |     100 |                   
+  arrays.ts                  |     100 |      100 |     100 |     100 |                   
+  functions.ts               |     100 |      100 |     100 |     100 |                   
+  nested.ts                  |     100 |     92.3 |     100 |     100 | 259               
+  objects.ts                 |     100 |     87.5 |     100 |     100 | 99,124            
+ src/bad-components          |   95.83 |       50 |     100 |   95.45 |                   
+  ChooseTeam.tsx             |     100 |       50 |     100 |     100 | 18                
+  ColoredBox.tsx             |     100 |      100 |     100 |     100 |                   
+  DoubleHalf.tsx             |     100 |      100 |     100 |     100 |                   
+  DoubleHalfState.tsx        |       0 |      100 |     100 |       0 | 3                 
+  ShoveBox.tsx               |     100 |      100 |     100 |     100 |                   
+ src/components              |     100 |      100 |     100 |     100 |                   
+  ChangeType.tsx             |     100 |      100 |     100 |     100 |                   
+  Counter.tsx                |     100 |      100 |     100 |     100 |                   
+  CycleHoliday.tsx           |     100 |      100 |     100 |     100 |                   
+  RevealAnswer.tsx           |     100 |      100 |     100 |     100 |                   
+  StartAttempt.tsx           |     100 |      100 |     100 |     100 |                   
+  TwoDice.tsx                |     100 |      100 |     100 |     100 |                   
+ src/form-components         |     100 |      100 |     100 |     100 |                   
+  ChangeColor.tsx            |     100 |      100 |     100 |     100 |                   
+  CheckAnswer.tsx            |     100 |      100 |     100 |     100 |                   
+  EditMode.tsx               |     100 |      100 |     100 |     100 |                   
+  GiveAttempts.tsx           |     100 |      100 |     100 |     100 |                   
+  MultipleChoiceQuestion.tsx |     100 |      100 |     100 |     100 |                   
+ src/interfaces              |       0 |        0 |       0 |       0 |                   
+  answer.ts                  |       0 |        0 |       0 |       0 |                   
+  question.ts                |       0 |        0 |       0 |       0 |                   
+-----------------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 20 passed, 20 total
+Tests:       134 passed, 134 total
 Snapshots:   0 total
-Time:        9.116 s
+Time:        13.535 s
 Ran all test suites.
